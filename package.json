@@ -10,7 +10,7 @@
     "url": "github.com/stevemao"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=12"
   },
   "scripts": {
     "test": "xo && mocha"
@@ -34,7 +34,10 @@
     "remove",
     "delete"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "acorn": "^8.4.1",
+    "webpack": "^5.48.0"
+  },
   "devDependencies": {
     "mocha": "*",
     "xo": "*"

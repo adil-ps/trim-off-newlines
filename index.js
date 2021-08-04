@@ -1,7 +1,3 @@
-'use strict';
 
-var regex = /^(?:\r\n|\n|\r)+|(?:\r\n|\n|\r)+$/g;
-
-module.exports = function (str) {
-	return str.replace(regex, '');
-};
+const regex = /^(?:\r\n|\n|\r)+|(?:\r\n|\n|\r)+$/g;
+export const trimOffNewlines = lines => lines.replace(regex, '');
