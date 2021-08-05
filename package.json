@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "trim-off-newlines",
   "version": "1.0.1",
   "description": "Similar to String#trim() but removes only newlines",

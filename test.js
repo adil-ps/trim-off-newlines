@@ -1,4 +1,4 @@
-import * as assert from 'assert';
+import * as assert from 'node:assert';
 import trimOffNewlines from './index.js';
 
 it('should trim off \\r', () => {
